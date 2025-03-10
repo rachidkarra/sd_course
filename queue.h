@@ -7,6 +7,8 @@ typedef struct {
     int count;                          /* nombre d'element de la file */
 } queue;
 
+// comment depuis sd_projet_1
+
 void init_queue(queue* q);
 void enqueue(queue* q, int x);
 int dequeue(queue* q);
