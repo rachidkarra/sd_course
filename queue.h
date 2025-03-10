@@ -6,6 +6,7 @@ typedef struct {
     int last;                           /* position du dernier element */
     int count;                          /* nombre d'element de la file */
 } queue;
+// juste a comment from feature_1
 
 void init_queue(queue* q);
 void enqueue(queue* q, int x);
